@@ -12,6 +12,7 @@
 		A406EB40227F28D800359603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A406EB3E227F28D800359603 /* Main.storyboard */; };
 		A406EB42227F28D900359603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A406EB41227F28D900359603 /* Assets.xcassets */; };
 		A406EB45227F28D900359603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A406EB43227F28D900359603 /* LaunchScreen.storyboard */; };
+		A406EB4D227F2A5800359603 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A406EB4C227F2A5800359603 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A406EB41227F28D900359603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A406EB44227F28D900359603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A406EB46227F28D900359603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A406EB4C227F2A5800359603 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A406EB3A227F28D800359603 /* AppDelegate.swift */,
 				A406EB3C227F28D800359603 /* ViewController.swift */,
 				A406EB3E227F28D800359603 /* Main.storyboard */,
+				A406EB4C227F2A5800359603 /* Resnet50.mlmodel */,
 				A406EB41227F28D900359603 /* Assets.xcassets */,
 				A406EB43227F28D900359603 /* LaunchScreen.storyboard */,
 				A406EB46227F28D900359603 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A406EB3D227F28D800359603 /* ViewController.swift in Sources */,
+				A406EB4D227F2A5800359603 /* Resnet50.mlmodel in Sources */,
 				A406EB3B227F28D800359603 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com.SmartCameraCoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com.SmartCameraCoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samson6552-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
