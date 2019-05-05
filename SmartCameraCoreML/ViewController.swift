@@ -55,6 +55,7 @@ class ViewController: UIViewController,AVCaptureVideoDataOutputSampleBufferDeleg
         setupIdentifierConfidenceLabel()
     }
     
+    
     fileprivate func setupIdentifierConfidenceLabel() {
         view.addSubview(identifierLabel)
         identifierLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -32).isActive = true
